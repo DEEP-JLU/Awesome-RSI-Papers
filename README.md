@@ -1,13 +1,12 @@
-# What to improve, Who drive the improvement: A Roadmap towards Recursive Self-Improvement
+# Awesome-RSI-Papers
 
 <div align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-green.svg" alt="PRs welcome"></a>
-  <a href="#-citation"><img src="https://img.shields.io/badge/Paper-Manuscript-b31b1b?style=flat-square" alt="Paper manuscript"></a>
   <a href="https://github.com/DEEP-JLU/Awesome-RSI-Papers"><img src="https://img.shields.io/github/stars/DEEP-JLU/Awesome-RSI-Papers?style=flat" alt="GitHub stars"></a>
 </div>
 
-A curated collection of research papers, benchmarks, and open-source projects on **Recursive Self-Improvement in the era of AI Agents**. This repository accompanies the survey *What to improve, Who drive the improvement: A Roadmap towards Recursive Self-Improvement* and will be continuously updated.
+A curated collection of research papers, benchmarks, and open-source projects on **Recursive Self-Improvement in the era of AI Agents**. This repository accompanies the survey *What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement* and will be continuously updated.
 
 Recursive Self-Improvement studies how execution experience and feedback support persistent improvements to foundation models, agent harnesses, environments, and improvement mechanisms themselves. The collection follows the survey’s two complementary views, **Evolution Target** and **Feedback**, and its roadmap of **seven interrelated milestones**.
 
@@ -15,20 +14,11 @@ Recursive Self-Improvement studies how execution experience and feedback support
 
 **📃 Please [cite our paper](#-citation)** if you find this survey or repository helpful.
 
-```bibtex
-@unpublished{anonymous2026rsi,
-  title={What to improve, Who drive the improvement: A Roadmap towards Recursive Self-Improvement},
-  author={{Anonymous authors}},
-  note={Manuscript},
-  year={2026}
-}
-```
-
 ---
 
 ## 🎉 News
 
-- **[2026-11]** We organize the accompanying resource collection for our survey *What to improve, Who drive the improvement: A Roadmap towards Recursive Self-Improvement*.
+- **[2026-11]** We release the initial resource collection for Recursive Self-Improvement in the era of AI agents.
 
 ## Overview
 
@@ -49,13 +39,12 @@ The survey provides a roadmap from task-local output refinement to persistent ag
 
 ## Table of Contents
 
-- [What to improve, Who drive the improvement: A Roadmap towards Recursive Self-Improvement](#what-to-improve-who-drive-the-improvement-a-roadmap-towards-recursive-self-improvement)
+- [Awesome-RSI-Papers](#awesome-rsi-papers)
   - [🎉 News](#-news)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [📚 Related Survey Papers](#-related-survey-papers)
   - [📜 Research Papers](#-research-papers)
-    - [Introduction](#introduction)
     - [Milestone I: Refining Output](#milestone-i-refining-output)
     - [Milestone II: Training Foundation Model](#milestone-ii-training-foundation-model)
       - [Enhancing Intrinsic Capabilities](#enhancing-intrinsic-capabilities)
@@ -85,6 +74,9 @@ The survey provides a roadmap from task-local output refinement to persistent ag
       - [Meta-Improvement](#meta-improvement)
       - [Generating Stronger Agents](#generating-stronger-agents)
       - [Verifiable Recursive Improvement](#verifiable-recursive-improvement)
+    - [Benchmarks and Evaluation](#benchmarks-and-evaluation)
+      - [Evolution Target Evaluation](#evolution-target-evaluation)
+      - [Feedback Evaluation](#feedback-evaluation)
     - [Challenges and Future Directions](#challenges-and-future-directions)
       - [Efficient and Sustainable Improvement](#efficient-and-sustainable-improvement)
       - [Reliable Self-Improvement](#reliable-self-improvement)
@@ -93,12 +85,12 @@ The survey provides a roadmap from task-local output refinement to persistent ag
       - [RSI Infrastructure](#rsi-infrastructure)
       - [Intelligence Explosion](#intelligence-explosion)
   - [🏆 Benchmarks, Datasets, and Environments](#-benchmarks-datasets-and-environments)
-    - [Model](#model)
-    - [Harness](#harness)
-    - [Environment](#environment)
-    - [Improver](#improver)
-    - [Evolution Target Evaluation](#evolution-target-evaluation)
-    - [Feedback Evaluation](#feedback-evaluation)
+    - [Evolution Target Evaluation](#evolution-target-evaluation-1)
+      - [Model](#model)
+      - [Harness](#harness)
+      - [Environment](#environment)
+      - [Improver](#improver)
+    - [Feedback Evaluation](#feedback-evaluation-1)
   - [💻 Open-Source Libraries](#-open-source-libraries)
     - [Training Foundation Model](#training-foundation-model)
     - [Evolving Agent Harness](#evolving-agent-harness)
@@ -140,18 +132,6 @@ The survey provides a roadmap from task-local output refinement to persistent ag
 </div>
 
 A comprehensive taxonomy spanning seven interrelated milestones toward Recursive Self-Improvement.
-
-### Introduction
-
-- (arXiv 2023) **GPT-4 Technical Report** [[Paper]](https://arxiv.org/abs/2303.08774)
-- (ICLR 2024) **AgentBench** — AgentBench: Evaluating LLMs as Agents [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html)
-- (arXiv 2023) **WebArena** — WebArena: A Realistic Web Environment for Building Autonomous Agents [[Paper]](https://arxiv.org/abs/2307.13854)
-- (ICLR 2023) **ReAct** — ReAct: Synergizing Reasoning and Acting in Language Models [[Paper]](https://openreview.net/forum?id=WE_vluYUL-X)
-- (UIST 2023) **Generative Agents** — Generative Agents: Interactive Simulacra of Human Behavior [[Paper]](https://arxiv.org/abs/2304.03442)
-- (arXiv 2026) **When Self-Evolution Backfires** — When Self-Evolution Backfires: Pre-Commit Gating against Skill Contamination in LLM Agents [[Paper]](https://arxiv.org/abs/2608.05810)
-- (arXiv 2026) **Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0** [[Paper]](https://arxiv.org/abs/2607.14004)
-- (Advances in Computers 1966) **Speculations Concerning the First Ultraintelligent Machine** [[Paper]](https://doi.org/10.1016/S0065-2458(08)60418-0)
-- (arXiv 2003) **Goedel Machines** — Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements [[Paper]](https://arxiv.org/abs/cs/0309048v5)
 
 ### Milestone I: Refining Output
 
@@ -616,6 +596,36 @@ A comprehensive taxonomy spanning seven interrelated milestones toward Recursive
   <p><em>Fig. 3. Representative Techniques Related to Recursive Self-Improvement.</em></p>
 </div>
 
+### Benchmarks and Evaluation
+
+#### Evolution Target Evaluation
+
+- (arXiv 2026) **Rethinking** — Rethinking the Evaluation of Harness Evolution for Agents [[Paper]](https://arxiv.org/abs/2607.12227)
+- (arXiv 2026) **Harness Evolution as Learning** — Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents [[Paper]](https://arxiv.org/abs/2609.36892)
+- (arXiv 2026) **MaD-RSI** — MaD-RSI: Model-as-Data for Recursive Self-Improvement of Agent Harnesses [[Paper]](https://arxiv.org/abs/2610.28201)
+- (arXiv 2026) **Controlled Memory Interference in Continual LLM Agents** [[Paper]](https://arxiv.org/abs/2608.07622)
+- (arXiv 2019) **POET** — Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions [[Paper]](https://arxiv.org/abs/1901.01753)
+- (NeurIPS 2020) **PAIRED** — Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design [[Paper]](https://papers.nips.cc/paper/2020/hash/985e9a46e10005356bbaf194249f6856-Abstract.html)
+- (ICML 2022) **ACCEL** — Evolving Curricula with Regret-Based Environment Design [[Paper]](https://proceedings.mlr.press/v162/parker-holder22a.html)
+- (ICLR 2026) **GenEnv** — GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators [[Paper]](https://openreview.net/forum?id=5vsYRklFJf)
+- (arXiv 2026) **MetaBench-Harness** — MetaBench-Harness: Unlocking End-to-End Optimization of Benchmark Harnesses [[Paper]](https://arxiv.org/abs/2609.33411)
+- (First Conference on Language Modeling 2024) **STOP** — Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation [[Paper]](https://arxiv.org/abs/2310.02304)
+- (arXiv 2026) **Hyperagents** [[Paper]](https://arxiv.org/abs/2603.19461)
+- (arXiv 2026) **MetaRSI** — MetaRSI / RSI²: A Meta-Recursive Self-Improving System for Recursive Self-Improving Systems Themselves [[Paper]](https://arxiv.org/abs/2609.06396)
+- (arXiv 2026) **AIDE²** — Recursive self-improvement of AI research agents [[Paper]](https://arxiv.org/abs/2609.26457)
+- (ICLR 2026) **HGM** — Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine [[Paper]](https://arxiv.org/abs/2510.21614)
+- (arXiv 2026) **Auditing the Product, Not the Recursion** — Auditing the Product, Not the Recursion: The Evaluation Evidence Behind Recursive Self-Improvement Claims [[Paper]](https://arxiv.org/abs/2610.27610)
+- (arXiv 2026) **EnvHarness** — EnvHarness: Awakening Static Worlds for Agent Learning [[Paper]](https://arxiv.org/abs/2608.19880)
+
+#### Feedback Evaluation
+
+- (NeurIPS 2022) **InstructGPT** — Training language models to follow instructions with human feedback [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract.html)
+- (arXiv 2026) **Learning Personalized Agents from Human Feedback** [[Paper]](https://arxiv.org/abs/2602.16173)
+- (arXiv 2026) **EvoRubric** — EvoRubric: Self-Evolving Rubric-Driven RL for Open-Ended Generation [[Paper]](https://arxiv.org/abs/2605.29847)
+- (arXiv 2026) **RQGM** — The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators [[Paper]](https://arxiv.org/abs/2606.26294)
+- (arXiv 2026) **Who Grades the Grader?** — Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents [[Paper]](https://arxiv.org/abs/2607.12790)
+- (arXiv 2026) **Bad Genius** — Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts [[Paper]](https://arxiv.org/abs/2609.18366)
+
 ### Challenges and Future Directions
 
 #### Efficient and Sustainable Improvement
@@ -665,7 +675,9 @@ A comprehensive taxonomy spanning seven interrelated milestones toward Recursive
 
 Representative evaluation resources from the survey:
 
-### Model
+### Evolution Target Evaluation
+
+#### Model
 
 - [MLAgentBench](https://github.com/snap-stanford/MLAgentBench)
 - [MLE-bench](https://github.com/openai/mle-bench)
@@ -674,10 +686,10 @@ Representative evaluation resources from the survey:
 - [PostTrainBench](https://github.com/aisa-group/PostTrainBench)
 - [RSIBench-Data](https://github.com/evolvent-ai/RSIBench-Data)
 - [S³Gym](https://arxiv.org/abs/2608.31100)
-- [InstructGPT](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract.html)
-- [EvoRubric](https://arxiv.org/abs/2605.29847v2)
+- [RE-Bench](https://arxiv.org/abs/2411.15114)
+- [MLRC-Bench](https://arxiv.org/abs/2504.09702)
 
-### Harness
+#### Harness
 
 - [HarnessOpt-Bench](https://arxiv.org/abs/2608.06301)
 - [Evo-Bench](https://github.com/RUCAIBox/Evo-Bench)
@@ -705,59 +717,40 @@ Representative evaluation resources from the survey:
 - [EvoPathBench](https://github.com/HQ-Lin/EvoPathBench)
 - [ServeLearnBench](https://github.com/Infini-AI-Lab/ServeLearnBench)
 - [RSE-Bench](https://arxiv.org/abs/2610.19910)
-- [PAHF](https://github.com/facebookresearch/PAHF)
 - [Meta-Agent Challenge](https://github.com/ant-research/meta-agent-challenge)
-- [HGM](https://github.com/metauto-ai/HGM)
+- [SWE-bench](https://arxiv.org/abs/2310.06770)
+- [WebArena](https://arxiv.org/abs/2307.13854)
+- [OSWorld](https://arxiv.org/abs/2404.07972)
+- [AgentBench](https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html)
+- [AppWorld](https://arxiv.org/abs/2407.18901)
+- [WorkArena](https://arxiv.org/abs/2403.07718)
+- [BrowserGym](https://arxiv.org/abs/2412.05467)
+- [EmbodiedCLBench](https://arxiv.org/abs/2610.13021)
+- [LoCoMo](https://arxiv.org/abs/2402.17753)
+- [LongMemEval](https://arxiv.org/abs/2410.10813)
+- [MemoryAgentBench](https://arxiv.org/abs/2507.05257)
 
-### Environment
+#### Environment
 
-- [EnvHarness](https://github.com/google-research/envharness)
-- [POET](https://github.com/uber-research/poet)
-- [PAIRED](https://github.com/google-research/google-research/tree/master/social_rl/adversarial_env)
-- [ACCEL](https://github.com/facebookresearch/dcd)
-- [GenEnv](https://github.com/Gen-Verse/GenEnv)
+- [Procgen](https://arxiv.org/abs/1912.01588)
+- [Meta-World](https://arxiv.org/abs/1910.10897)
+- [MiniHack](https://arxiv.org/abs/2109.13202)
 
-### Improver
+#### Improver
 
 - [AI4AI-Bench](https://github.com/Einsia/AI4AI-Bench)
 - [RSI-Exam](https://github.com/aiming-lab/RSI-Exam)
-- [STOP](https://github.com/microsoft/stop)
-- [Hyperagents](https://github.com/facebookresearch/HyperAgents)
-- [AIDE²](https://arxiv.org/abs/2609.26457)
-- [MetaRSI](https://arxiv.org/abs/2609.06396)
-- [RQGM](https://arxiv.org/abs/2606.26294)
-- [Double Ratchet](https://github.com/amazon-science/Self-Evolving-Agents-Double-Ratchet)
-
-### Evolution Target Evaluation
-
-- [RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts](https://arxiv.org/abs/2411.15114)
-- [MLRC-Bench: Can Language Agents Solve Machine Learning Research Challenges?](https://arxiv.org/abs/2504.09702)
-- [Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents](https://arxiv.org/abs/2609.36892)
-- [MaD-RSI: Model-as-Data for Recursive Self-Improvement of Agent Harnesses](https://arxiv.org/abs/2610.28201)
-- [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)
-- [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
-- [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972)
-- [AgentBench: Evaluating LLMs as Agents](https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html)
-- [AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents](https://arxiv.org/abs/2407.18901)
-- [WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?](https://arxiv.org/abs/2403.07718)
-- [The BrowserGym Ecosystem for Web Agent Research](https://arxiv.org/abs/2412.05467)
-- [EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents](https://arxiv.org/abs/2610.13021)
-- [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753)
-- [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813)
-- [Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions](https://arxiv.org/abs/2507.05257)
-- [Controlled Memory Interference in Continual LLM Agents](https://arxiv.org/abs/2608.07622)
-- [Leveraging Procedural Generation to Benchmark Reinforcement Learning](https://arxiv.org/abs/1912.01588)
-- [Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning](https://arxiv.org/abs/1910.10897)
-- [MiniHack the Planet: A Sandbox for Open-Ended Reinforcement Learning Research](https://arxiv.org/abs/2109.13202)
-- [MetaBench-Harness: Unlocking End-to-End Optimization of Benchmark Harnesses](https://arxiv.org/abs/2609.33411)
-- [Auditing the Product, Not the Recursion: The Evaluation Evidence Behind Recursive Self-Improvement Claims](https://arxiv.org/abs/2610.27610)
+- [RSIGym](https://arxiv.org/abs/2610.10310)
 
 ### Feedback Evaluation
 
-- [τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045)
-- [τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment](https://arxiv.org/abs/2506.07982)
-- [MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research](https://arxiv.org/abs/2505.19955)
-- [Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts](https://arxiv.org/abs/2609.18366)
+- [RSIBench-Data](https://github.com/evolvent-ai/RSIBench-Data)
+- [FinEvolveBench](https://arxiv.org/abs/2606.06960v4)
+- [τ-bench](https://arxiv.org/abs/2406.12045)
+- [τ²-Bench](https://arxiv.org/abs/2506.07982)
+- [FinEvo-Bench](https://arxiv.org/abs/2608.06144v2)
+- [PaperBench](https://arxiv.org/abs/2504.01848v3)
+- [MLR-Bench](https://arxiv.org/abs/2505.19955)
 
 ## 💻 Open-Source Libraries
 
@@ -808,13 +801,13 @@ Representative systems and application domains covered by the survey:
 - [Cursor](https://cursor.com/docs/rules)
 - [OpenHands](https://github.com/OpenHands/OpenHands)
 - [OpenCode](https://github.com/anomalyco/opencode)
-- [Agentless: Demystifying LLM-based Software Engineering Agents](https://arxiv.org/abs/2407.01489)
-- [SWE-Search: Enhancing Software Agents with Monte Carlo Tree Search and Iterative Refinement](https://arxiv.org/abs/2410.20285)
-- [SWE-Exp: Experience-Driven Software Issue Resolution](https://arxiv.org/abs/2507.23361)
-- [HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs](https://arxiv.org/abs/2610.26770)
-- [SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](https://arxiv.org/abs/2502.18449)
-- [R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents](https://arxiv.org/abs/2504.07164)
-- [SWE-smith: Scaling Data for Software Engineering Agents](https://arxiv.org/abs/2504.21798)
+- [Agentless](https://arxiv.org/abs/2407.01489)
+- [SWE-Search](https://arxiv.org/abs/2410.20285)
+- [SWE-Exp](https://arxiv.org/abs/2507.23361)
+- [HarnessPro](https://arxiv.org/abs/2610.26770)
+- [SWE-RL](https://arxiv.org/abs/2502.18449)
+- [R2E-Gym](https://arxiv.org/abs/2504.07164)
+- [SWE-smith](https://arxiv.org/abs/2504.21798)
 
 ### Autonomous AI Research
 
@@ -831,11 +824,11 @@ Representative systems and application domains covered by the survey:
 - [autoresearch](https://github.com/karpathy/autoresearch)
 - [AIDE ML](https://github.com/WecoAI/aideml)
 - [ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve)
-- [Mathematical discoveries from program search with large language models](https://www.nature.com/articles/s41586-023-06924-6)
-- [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292)
-- [The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search](https://arxiv.org/abs/2504.08066)
-- [The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery](https://arxiv.org/abs/2610.18933)
-- [ScientistTwo: Pioneering the Human Knowledge Frontier with Autonomous AI](https://arxiv.org/abs/2609.19644)
+- [FunSearch](https://www.nature.com/articles/s41586-023-06924-6)
+- [The AI Scientist](https://arxiv.org/abs/2408.06292)
+- [The AI Scientist-v2](https://arxiv.org/abs/2504.08066)
+- [The Agentic Scientist](https://arxiv.org/abs/2610.18933)
+- [ScientistTwo](https://arxiv.org/abs/2609.19644)
 
 ### Scientific Discovery
 
@@ -845,10 +838,10 @@ Representative systems and application domains covered by the survey:
 - [Co-Scientist](https://www.nature.com/articles/s41586-026-10644-y)
 - [Virtual Lab](https://www.nature.com/articles/s41586-025-09442-9)
 - [Robin](https://www.nature.com/articles/s41586-026-10652-y)
-- [ChemCrow: Augmenting large-language models with chemistry tools](https://arxiv.org/abs/2304.05376)
-- [An automatic end-to-end chemical synthesis development platform powered by large language models](https://pmc.ncbi.nlm.nih.gov/articles/PMC11585555/)
-- [HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning](https://arxiv.org/abs/2608.25770)
-- [The Little Scientist: LLM Agent-Driven Discovery via the Scientific Method](https://arxiv.org/abs/2608.16951)
+- [ChemCrow](https://arxiv.org/abs/2304.05376)
+- [LLM-RDF](https://pmc.ncbi.nlm.nih.gov/articles/PMC11585555/)
+- [HypoForge](https://arxiv.org/abs/2608.25770)
+- [The Little Scientist](https://arxiv.org/abs/2608.16951)
 
 ### Web and Digital Agents
 
@@ -860,12 +853,12 @@ Representative systems and application domains covered by the survey:
 - [WebEvolver](https://aclanthology.org/2025.emnlp-main.454/)
 - [GEPA](https://github.com/gepa-ai/gepa)
 - [EvoAgentX](https://github.com/ANative-Lab/EvoAgentX)
-- [Mind2Web: Towards a Generalist Agent for the Web](https://arxiv.org/abs/2306.06070)
-- [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930)
-- [WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models](https://arxiv.org/abs/2401.13919)
-- [Evolving Agent Interfaces](https://arxiv.org/abs/2610.28601)
-- [Echoverse: Deep, Evolving Environments for Training Computer-Use Agents at Scale](https://arxiv.org/abs/2607.28074)
-- [Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting](https://arxiv.org/abs/2610.29784)
+- [Mind2Web](https://arxiv.org/abs/2306.06070)
+- [WebLINX](https://arxiv.org/abs/2402.05930)
+- [WebVoyager](https://arxiv.org/abs/2401.13919)
+- [Agent S4](https://arxiv.org/abs/2610.28601)
+- [Echoverse](https://arxiv.org/abs/2607.28074)
+- [EvoForesight](https://arxiv.org/abs/2610.29784)
 
 ### Open-World and Embodied Agents
 
@@ -877,15 +870,15 @@ Representative systems and application domains covered by the survey:
 - [ReTrace](https://arxiv.org/abs/2610.15814v1)
 - [VLAW](https://proceedings.mlr.press/v306/guo26i.html)
 - [World-VLA-Loop](https://arxiv.org/abs/2602.06508)
-- [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691)
-- [Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753)
-- [EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds](https://arxiv.org/abs/2610.20786)
-- [ASENA: Self-evolving Agents for Embodied Navigation](https://arxiv.org/abs/2609.39207)
-- [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818)
-- [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)
-- [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213)
-- [RoboCat: A Self-Improving Generalist Agent for Robotic Manipulation](https://arxiv.org/abs/2306.11706)
-- [SEES: A Self-Evolving Embodied System via Failure-Guided VLA Policy Adaptation](https://arxiv.org/abs/2609.32698)
+- [SayCan](https://arxiv.org/abs/2204.01691)
+- [Code as Policies](https://arxiv.org/abs/2209.07753)
+- [EvolvingBrain](https://arxiv.org/abs/2610.20786)
+- [ASENA](https://arxiv.org/abs/2609.39207)
+- [RT-2](https://arxiv.org/abs/2307.15818)
+- [OpenVLA](https://arxiv.org/abs/2406.09246)
+- [Octo](https://arxiv.org/abs/2405.12213)
+- [RoboCat](https://arxiv.org/abs/2306.11706)
+- [SEES](https://arxiv.org/abs/2609.32698)
 
 ## 🍀 Citation
 
@@ -893,12 +886,14 @@ If you find this repository useful, please cite the accompanying survey:
 
 ```bibtex
 @unpublished{anonymous2026rsi,
-  title={What to improve, Who drive the improvement: A Roadmap towards Recursive Self-Improvement},
+  title={What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement},
   author={{Anonymous authors}},
   note={Manuscript},
   year={2026}
 }
 ```
+
+> The citation metadata will be updated when the manuscript is publicly available.
 
 ## Acknowledgments
 
