@@ -6,7 +6,7 @@
   <a href="https://github.com/DEEP-JLU/Awesome-RSI-Papers"><img src="https://img.shields.io/github/stars/DEEP-JLU/Awesome-RSI-Papers?style=flat" alt="GitHub stars"></a>
 </div>
 
-A curated collection of research papers, benchmarks, and open-source projects on **Recursive Self-Improvement in the era of AI Agents**. This repository accompanies the survey *What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement* and will be continuously updated.
+A curated collection of research papers, benchmarks, and open-source projects on **Recursive Self-Improvement**. This repository accompanies the survey *What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement* and will be continuously updated.
 
 Recursive Self-Improvement studies how execution experience and feedback support persistent improvements to foundation models, agent harnesses, environments, and improvement mechanisms themselves. The collection follows the survey’s two complementary views, **Evolution Target** and **Feedback**, and its roadmap of **seven interrelated milestones**.
 
