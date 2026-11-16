@@ -18,14 +18,14 @@ Recursive Self-Improvement studies how execution experience and feedback support
 
 ## 🎉 News
 
-- **[2026-11]** We release the initial resource collection for Recursive Self-Improvement in the era of AI agents.
+- **[2026-11]** We release the initial resource collection for Recursive Self-Improvement.
 
 ## Overview
 
 The survey analyzes agent improvement toward RSI along **two complementary axes** (Fig. 1):
 
 - **What improves** characterizes the objects and scope of agent improvement, tracing how task-local output refinement extends to persistent changes in the agent, its environment, and the improver itself.
-- **Who Drives Improvement** characterizes how improvement is guided by feedback, explaining how signals are obtained and interpreted to identify weaknesses, evaluate candidate changes, and support further improvement as feedback mechanisms evolve.
+- **Who Drives Improvement** characterizes the sources of feedback and the mechanisms that guide improvement, explaining how signals are obtained and interpreted to identify weaknesses, evaluate candidate changes, and support further improvement as feedback mechanisms evolve.
 
 <div align="center">
   <img width="100%" src="images/image3.png" alt="Fig. 1. What improves and Who Drives Improvement: Two Axes of Agent Improvement">
@@ -45,7 +45,7 @@ Based on the **What improves** and **Who Drives Improvement** axes in Fig. 1, we
 - **Building Environment** synthesizes, orchestrates, and evolves environments and their executable models.
 - **Automating Feedback** connects human-steered, environment-grounded, AI-facilitated, and evolving feedback.
 - **Co-Evolving Agent and Environment** couples persistent updates of agents and environment-side mechanisms.
-- **Approaching Recursive Self-Improvement** examines meta-improvement, stronger agents, and verifiable future improvement capability.
+- **Approaching Recursive Self-Improvement** examines meta-improvement, the generation of stronger agents, and verifiable recursive improvement.
 
 ## Table of Contents
 
@@ -479,7 +479,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 ### Milestone VI: Co-Evolving Agent and Environment
 
 <div align="center">
-  <img width="100%" src="images/image7.png" alt="Agent and environment co-evolution">
+  <img width="100%" src="images/image7.png" alt="Co-Evolving Agent and Environment">
   <p><em>Alternating-update and simultaneous-update co-evolution.</em></p>
 </div>
 
@@ -678,7 +678,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 
 ## 🏆 Benchmarks, Datasets, and Environments
 
-Representative evaluation resources from the survey:
+Representative evaluation resources assess improvement targets under **What improves** and feedback mechanisms under **Who Drives Improvement**:
 
 ### Evolution Target Evaluation
 
@@ -759,7 +759,7 @@ Representative evaluation resources from the survey:
 
 ## 💻 Open-Source Libraries
 
-Reusable projects grouped by their primary engineering target:
+Reusable projects grouped by the corresponding milestones:
 
 ### Training Foundation Model
 
