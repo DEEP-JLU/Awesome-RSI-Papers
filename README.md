@@ -8,7 +8,7 @@
 
 A curated collection of research papers, benchmarks, and open-source projects on **Recursive Self-Improvement**. This repository accompanies the survey *What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement* and will be continuously updated.
 
-Recursive Self-Improvement studies how execution experience and feedback support persistent improvements to foundation models, agent harnesses, environments, and improvement mechanisms themselves. The collection follows the survey’s two complementary views, **Evolution Target** and **Feedback**, and its roadmap of **seven interrelated milestones**.
+Recursive Self-Improvement studies how execution experience and feedback support persistent improvements to foundation models, agent harnesses, environments, and improvement mechanisms themselves. Building on the complementary axes of **What improves** and **Who Drives Improvement**, the collection organizes existing research into **seven interrelated milestones** toward RSI.
 
 🤗 **Contributions are welcome.** If you find a missing resource or a relevant new work, please open an issue or submit a pull request.
 
