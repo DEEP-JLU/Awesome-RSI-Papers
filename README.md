@@ -1,4 +1,4 @@
-# Awesome-RSI-Papers
+# What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement
 
 <div align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
@@ -49,7 +49,7 @@ Based on the **What improves** and **Who Drives Improvement** axes in Fig. 1, we
 
 ## Table of Contents
 
-- [Awesome-RSI-Papers](#awesome-rsi-papers)
+- [What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement](#what-to-improve-who-drives-the-improvement-a-roadmap-towards-recursive-self-improvement)
   - [🎉 News](#-news)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
@@ -117,20 +117,20 @@ Based on the **What improves** and **Who Drives Improvement** axes in Fig. 1, we
 
 ## 📚 Related Survey Papers
 
-- (Preprints.org 2026) Where the Loop Meets the Budget: Analyzing On-Device Recursive Self-Improvement [[Paper]](https://www.preprints.org/manuscript/202610.0582/v2)
-- (Preprints.org 2026) When, Where, and How Experience Becomes Structure: Mechanisms for Recursive Self-Improvement in LLM Agents [[Paper]](https://www.preprints.org/manuscript/202611.0261/v1)
+- (Preprint 2026) Where the Loop Meets the Budget: Analyzing On-Device Recursive Self-Improvement [[Paper]](https://www.preprints.org/manuscript/202610.0582/v2)
+- (Preprint 2026) When, Where, and How Experience Becomes Structure: Mechanisms for Recursive Self-Improvement in LLM Agents [[Paper]](https://www.preprints.org/manuscript/202611.0261/v1)
 - (arXiv 2026) Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation [[Paper]](https://arxiv.org/abs/2610.38266)
 - (arXiv 2026) Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges [[Paper]](https://arxiv.org/abs/2610.35193)
 - (arXiv 2026) Safety in Self-Evolving Agents: A Survey [[Paper]](https://arxiv.org/abs/2610.00093)
-- (Preprints.org 2026) The Path to Recursive Self-Improving Agents: Foundation, Framework, and Future Directions [[Paper]](https://www.preprints.org/manuscript/202608.0051)
-- (OpenReview Archive 2026) Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution [[Paper]](https://openreview.net/pdf?id=IUltZSgLMm)
+- (Preprint 2026) The Path to Recursive Self-Improving Agents: Foundation, Framework, and Future Directions [[Paper]](https://www.preprints.org/manuscript/202608.0051)
+- (Openreview 2026) Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution [[Paper]](https://openreview.net/pdf?id=IUltZSgLMm)
 - (arXiv 2025) A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems [[Paper]](https://arxiv.org/abs/2508.07407)
 - (TMLR 2026) A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence [[Paper]](https://openreview.net/forum?id=CTr3bovS5F)
 - (arXiv 2026) Self-Improvements in Modern Agentic Systems: A Survey [[Paper]](https://arxiv.org/abs/2607.13104)
 - (TechRxiv 2026) A systematic survey of self-evolving agents: From model-centric to environment-driven co-evolution [[Paper]](https://doi.org/10.36227/techrxiv.177203250.05832634/v2)
 - (arXiv 2026) Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops [[Paper]](https://arxiv.org/abs/2607.07663)
 - (arXiv 2026) The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement [[Paper]](https://arxiv.org/abs/2609.11873)
-- (OpenReview 2026) Towards AI That Improves Itself: A Survey of Recursive Self-Improvement [[Paper]](https://openreview.net/forum?id=I3fKQbRUGy)
+- (Openreview 2026) Towards AI That Improves Itself: A Survey of Recursive Self-Improvement [[Paper]](https://openreview.net/forum?id=I3fKQbRUGy)
 - (TACL 2024) When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs [[Paper]](https://aclanthology.org/2024.tacl-1.78/)
 - (arXiv 2024) LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods [[Paper]](https://arxiv.org/abs/2412.05579v2)
 
@@ -165,8 +165,8 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (NeurIPS 2022) **STaR** — STaR: Bootstrapping Reasoning With Reasoning [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html)
 - (arXiv 2023) **ReST** — Reinforced Self-Training (ReST) for Language Modeling [[Paper]](https://arxiv.org/abs/2308.08998)
 - (ICML 2024) **SPIN** — Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models [[Paper]](https://proceedings.mlr.press/v235/chen24j.html)
-- (Conference on Language Modeling 2024) **Quiet-STaR** — Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking [[Paper]](https://openreview.net/forum?id=oRXPiSOGH9)
-- (Conference on Language Modeling 2024) **V-Star** — V-Star: Training Verifiers for Self-Taught Reasoners [[Paper]](https://openreview.net/forum?id=stmqBSW2dV)
+- (COLM 2024) **Quiet-STaR** — Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking [[Paper]](https://openreview.net/forum?id=oRXPiSOGH9)
+- (COLM 2024) **V-Star** — V-Star: Training Verifiers for Self-Taught Reasoners [[Paper]](https://openreview.net/forum?id=stmqBSW2dV)
 - (NeurIPS 2024) **ReST-MCTS\*** — ReST-MCTS\*: LLM Self-Training via Process Reward Guided Tree Search [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/76ec4dc30e9faaf0e4b6093eaa377218-Abstract-Conference.html)
 - (ICML 2025) **rStar-Math** — rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking [[Paper]](https://proceedings.mlr.press/v267/guan25f.html)
 - (arXiv 2024) **DeepSeekMath** — DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models [[Paper]](https://arxiv.org/abs/2402.03300v3)
@@ -198,7 +198,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **Skill1** — Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning [[Paper]](https://arxiv.org/abs/2605.06130)
 - (arXiv 2026) **SkillGraph** — SkillGraph: Skill-Augmented Reinforcement Learning for Agents via Evolving Skill Graphs [[Paper]](https://arxiv.org/abs/2605.12039)
 - (arXiv 2026) **SkillGym** — SkillGym: Internalizing Human Skills into LLMs for Real-World Problem Solving [[Paper]](https://arxiv.org/abs/2609.27717)
-- (Conference on Language Modeling 2025) **Search-R1** — Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning [[Paper]](https://openreview.net/forum?id=Rwhi91ideu)
+- (COLM 2025) **Search-R1** — Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning [[Paper]](https://openreview.net/forum?id=Rwhi91ideu)
 - (arXiv 2025) **ReTool** — ReTool: Reinforcement Learning for Strategic Tool Use in LLMs [[Paper]](https://arxiv.org/abs/2504.11536)
 - (ICML 2026) **AutoTool** — AutoTool: Dynamic Tool Selection and Integration for Agentic Reasoning [[Paper]](https://proceedings.mlr.press/v306/zou26p.html)
 - (ICML 2026) **ToolOrchestra** — ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration [[Paper]](https://proceedings.mlr.press/v306/su26d.html)
@@ -249,7 +249,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 #### Skill Evolution
 
 - (TMLR 2024) **Voyager** — Voyager: An Open-Ended Embodied Agent with Large Language Models [[Paper]](https://openreview.net/pdf?id=ehfRiF0R3a)
-- (Conference on Language Modeling 2025) **ASI** — Inducing Programmatic Skills for Agentic Tasks [[Paper]](https://openreview.net/forum?id=lsAY6fWsog)
+- (COLM 2025) **ASI** — Inducing Programmatic Skills for Agentic Tasks [[Paper]](https://openreview.net/forum?id=lsAY6fWsog)
 - (arXiv 2025) **SkillWeaver** — SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills [[Paper]](https://arxiv.org/abs/2504.07079)
 - (arXiv 2026) **AutoSkill** — AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution [[Paper]](https://arxiv.org/abs/2603.01145)
 - (arXiv 2026) **Trace2Skill** — Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills [[Paper]](https://arxiv.org/abs/2603.25158)
@@ -258,7 +258,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **PSN** — Evolving Programmatic Skill Networks [[Paper]](https://arxiv.org/abs/2601.03509)
 - (ACM SIGIR 2026 Industry Track 2026) **SkillForge** — SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support [[Paper]](https://arxiv.org/abs/2604.08618)
 - (arXiv 2026) **ContractSkill** — ContractSkill: Repairable Contract-Based Skills for Multimodal Web Agents [[Paper]](https://arxiv.org/abs/2603.20340)
-- (Conference on Language Modeling 2026) **CoEvoSkills** — CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification [[Paper]](https://arxiv.org/abs/2604.01687)
+- (COLM 2026) **CoEvoSkills** — CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification [[Paper]](https://arxiv.org/abs/2604.01687)
 - (arXiv 2026) **Skill-R1** — Skill-R1: Agent Skill Evolution via Reinforcement Learning [[Paper]](https://arxiv.org/abs/2605.09359)
 - (arXiv 2026) **EviSkill** — EVISKILL: Grounding Skill Evolution in Replayable Evidence [[Paper]](https://arxiv.org/abs/2610.05030)
 - (arXiv 2026) **SkillOpt** — SkillOpt: Executive Strategy for Self-Evolving Agent Skills [[Paper]](https://arxiv.org/abs/2605.23904)
@@ -301,7 +301,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 
 #### Environment Synthesis
 
-- (First Conference on Language Modeling 2024) **EnvGen** — EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents [[Paper]](https://arxiv.org/abs/2403.12014)
+- (COLM 2024) **EnvGen** — EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents [[Paper]](https://arxiv.org/abs/2403.12014)
 - (NeurIPS 2025) **WALL-E** — WALL-E: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e772a13ccba5255331240dcd99aa38b-Abstract-Conference.html)
 - (arXiv 2026) **Agent-World** — Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence [[Paper]](https://arxiv.org/abs/2604.18292)
 - (arXiv 2026) **Envs-FORGE** — Envs-FORGE: Frontier-Optimized Reward-Grounded Environment Synthesis for Agent RL [[Paper]](https://arxiv.org/abs/2608.14312)
@@ -312,7 +312,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (NeurIPS 2024) **GIF-MCTS** — Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html)
 - (NeurIPS 2025) **PoE-World** — PoE-World: Compositional World Modeling with Products of Programmatic Experts [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/262dd62fd1bbb30d6a6b4d578f5e65ff-Abstract-Conference.html)
 - (arXiv 2026) **Code as Worlds** — Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning [[Paper]](https://arxiv.org/abs/2608.27549)
-- (Available at SSRN 6499021 2026) **Agentic PCG** — Agentic PCG: Procedural Content Generation via Tool-using LLMs [[Paper]](https://ssrn.com/abstract=6499021)
+- (Preprint 2026) **Agentic PCG** — Agentic PCG: Procedural Content Generation via Tool-using LLMs [[Paper]](https://ssrn.com/abstract=6499021)
 - (arXiv 2026) **SimWorld Studio** — SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning [[Paper]](https://arxiv.org/abs/2605.09423)
 - (ICML 2026) **Agent World Model** — Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning [[Paper]](https://proceedings.mlr.press/v306/wang26jh.html)
 
@@ -336,7 +336,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (ICLR 2026) **DreamGym** — Scaling Agent Learning via Experience Synthesis [[Paper]](https://openreview.net/pdf?id=cf7qpBwttr)
 - (arXiv 2026) **Endless Terminals** — Endless Terminals: Scaling RL Environments for Terminal Agents [[Paper]](https://arxiv.org/abs/2601.16443)
 - (arXiv 2026) **SETA** — SETA: Scaling Environments for Terminal Agents [[Paper]](https://arxiv.org/abs/2607.10891)
-- (Third Conference on Language Modeling 2026) **Self-Evolving Curriculum for LLM Reasoning** [[Paper]](https://arxiv.org/abs/2505.14970)
+- (COLM 2026) **Self-Evolving Curriculum for LLM Reasoning** [[Paper]](https://arxiv.org/abs/2505.14970)
 - (arXiv 2026) **Training Needs Trustworthy Worlds** — Training Needs Trustworthy Worlds: Verified Synthetic Web Environments for Agent Learning [[Paper]](https://arxiv.org/abs/2608.21898)
 - (arXiv 2026) **Automatic Generation of High-Performance RL Environments** [[Paper]](https://arxiv.org/abs/2603.12145)
 
@@ -428,7 +428,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **AJ-Bench** — AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation [[Paper]](https://arxiv.org/abs/2604.18240v1)
 - (ICLR 2024) **Themis** — Tool-Augmented Reward Modeling [[Paper]](https://arxiv.org/abs/2310.01045v2)
 - (Findings of EMNLP 2025) **VerifiAgent** — VerifiAgent: a Unified Verification Agent in Language Model Reasoning [[Paper]](https://aclanthology.org/2025.findings-emnlp.891/)
-- (Conference on Language Modeling 2025) **EvalAgent** — EvalAgent: Discovering Implicit Evaluation Criteria from the Web [[Paper]](https://arxiv.org/abs/2504.15219v2)
+- (COLM 2025) **EvalAgent** — EvalAgent: Discovering Implicit Evaluation Criteria from the Web [[Paper]](https://arxiv.org/abs/2504.15219v2)
 - (arXiv 2025) **FACT-AUDIT** — FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models [[Paper]](https://arxiv.org/abs/2502.17924v2)
 - (arXiv 2025) **GUI-PRA** — GUI-PRA: Process Reward Agent for GUI Tasks [[Paper]](https://arxiv.org/abs/2509.23263v3)
 - (arXiv 2026) **VAGEN** — Agentic Reward Modeling: Verifying GUI Agent via Progressive Trajectory-Grounded Interaction [[Paper]](https://arxiv.org/abs/2602.00575v2)
@@ -535,7 +535,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 
 - (arXiv 2026) **Frontis-MA1** — Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering [[Paper]](https://arxiv.org/abs/2607.28568)
 - (arXiv 2026) **POISE** — From AI Assistant to AI Scientist: Autonomous Discovery of LLM-RL Algorithms with LLM Agents [[Paper]](https://arxiv.org/abs/2603.23951)
-- (First Conference on Language Modeling 2024) **STOP** — Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation [[Paper]](https://arxiv.org/abs/2310.02304)
+- (COLM 2024) **STOP** — Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation [[Paper]](https://arxiv.org/abs/2310.02304)
 - (ICML 2024) **Promptbreeder** — Promptbreeder: Self-Referential Self-Improvement via Prompt Evolution [[Paper]](https://proceedings.mlr.press/v235/fernando24a.html)
 - (arXiv 2026) **EvoX** — EvoX: Meta-Evolution for Automated Discovery [[Paper]](https://arxiv.org/abs/2602.23413)
 - (arXiv 2026) **AEvo** — Harnessing Agentic Evolution [[Paper]](https://arxiv.org/abs/2605.13821)
@@ -614,7 +614,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (ICML 2022) **ACCEL** — Evolving Curricula with Regret-Based Environment Design [[Paper]](https://proceedings.mlr.press/v162/parker-holder22a.html)
 - (ICLR 2026) **GenEnv** — GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators [[Paper]](https://openreview.net/forum?id=5vsYRklFJf)
 - (arXiv 2026) **MetaBench-Harness** — MetaBench-Harness: Unlocking End-to-End Optimization of Benchmark Harnesses [[Paper]](https://arxiv.org/abs/2609.33411)
-- (First Conference on Language Modeling 2024) **STOP** — Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation [[Paper]](https://arxiv.org/abs/2310.02304)
+- (COLM 2024) **STOP** — Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation [[Paper]](https://arxiv.org/abs/2310.02304)
 - (arXiv 2026) **Hyperagents** [[Paper]](https://arxiv.org/abs/2603.19461)
 - (arXiv 2026) **MetaRSI** — MetaRSI / RSI²: A Meta-Recursive Self-Improving System for Recursive Self-Improving Systems Themselves [[Paper]](https://arxiv.org/abs/2609.06396)
 - (arXiv 2026) **AIDE²** — Recursive self-improvement of AI research agents [[Paper]](https://arxiv.org/abs/2609.26457)
