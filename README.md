@@ -256,7 +256,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **SkillX** — SkillX: Automatically Constructing Skill Knowledge Bases for Agents [[Paper]](https://arxiv.org/abs/2604.04804)
 - (arXiv 2026) **SkillClaw** — SkillClaw: Let Skills Evolve Collectively with Agentic Evolver [[Paper]](https://arxiv.org/abs/2604.08377)
 - (arXiv 2026) **PSN** — Evolving Programmatic Skill Networks [[Paper]](https://arxiv.org/abs/2601.03509)
-- (ACM SIGIR 2026 Industry Track 2026) **SkillForge** — SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support [[Paper]](https://arxiv.org/abs/2604.08618)
+- (SIGIR 2026) **SkillForge** — SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support [[Paper]](https://arxiv.org/abs/2604.08618)
 - (arXiv 2026) **ContractSkill** — ContractSkill: Repairable Contract-Based Skills for Multimodal Web Agents [[Paper]](https://arxiv.org/abs/2603.20340)
 - (COLM 2026) **CoEvoSkills** — CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification [[Paper]](https://arxiv.org/abs/2604.01687)
 - (arXiv 2026) **Skill-R1** — Skill-R1: Agent Skill Evolution via Reinforcement Learning [[Paper]](https://arxiv.org/abs/2605.09359)
