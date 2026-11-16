@@ -22,7 +22,22 @@ Recursive Self-Improvement studies how execution experience and feedback support
 
 ## Overview
 
-The survey provides a roadmap from task-local output refinement to persistent agent improvement and recursive self-improvement:
+The survey analyzes agent improvement toward RSI along **two complementary axes** (Fig. 1):
+
+- **What improves** characterizes the objects and scope of agent improvement, tracing how task-local output refinement extends to persistent changes in the agent, its environment, and the improver itself.
+- **Who Drives Improvement** characterizes how improvement is guided by feedback, explaining how signals are obtained and interpreted to identify weaknesses, evaluate candidate changes, and support further improvement as feedback mechanisms evolve.
+
+<div align="center">
+  <img width="100%" src="images/image3.png" alt="Fig. 1. What improves and Who Drives Improvement: Two Axes of Agent Improvement">
+  <p><em>Fig. 1. Two Axes of Agent Improvement: What improves and Who Drives Improvement.</em></p>
+</div>
+
+Based on the **What improves** and **Who Drives Improvement** axes in Fig. 1, we organize existing research toward RSI into **seven interrelated milestones**, as illustrated in Fig. 2.
+
+<div align="center">
+  <img width="100%" src="images/image1.png" alt="Fig. 2. Roadmap Toward Recursive Self-Improvement">
+  <p><em>Fig. 2. Roadmap Toward Recursive Self-Improvement.</em></p>
+</div>
 
 - **Refining Output** improves task-local artifacts through critique, verification, and revision.
 - **Training Foundation Model** internalizes execution experience into persistent model capabilities.
@@ -31,11 +46,6 @@ The survey provides a roadmap from task-local output refinement to persistent ag
 - **Automating Feedback** connects human-steered, environment-grounded, AI-facilitated, and evolving feedback.
 - **Co-Evolving Agent and Environment** couples persistent updates of agents and environment-side mechanisms.
 - **Approaching Recursive Self-Improvement** examines meta-improvement, stronger agents, and verifiable future improvement capability.
-
-<div align="center">
-  <img width="100%" src="images/image3.png" alt="Evolution targets and feedback toward recursive self-improvement">
-  <p><em>Evolution Target and Feedback provide complementary views of agent improvement toward RSI.</em></p>
-</div>
 
 ## Table of Contents
 
@@ -126,12 +136,7 @@ The survey provides a roadmap from task-local output refinement to persistent ag
 
 ## 📜 Research Papers
 
-<div align="center">
-  <img width="100%" src="images/image1.png" alt="Fig. 2. Roadmap Toward Recursive Self-Improvement">
-  <p><em>Fig. 2. Roadmap Toward Recursive Self-Improvement.</em></p>
-</div>
-
-A comprehensive taxonomy spanning seven interrelated milestones toward Recursive Self-Improvement.
+Research papers are organized by the seven milestones introduced in the [Overview](#overview).
 
 ### Milestone I: Refining Output
 
