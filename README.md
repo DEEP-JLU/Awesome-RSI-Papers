@@ -1,4 +1,4 @@
-# What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement
+# What Improves, Who Drives Improve: A Roadmap Towards Recursive Self-Improvement
 
 <div align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
@@ -6,9 +6,9 @@
   <a href="https://github.com/DEEP-JLU/Awesome-RSI-Papers"><img src="https://img.shields.io/github/stars/DEEP-JLU/Awesome-RSI-Papers?style=flat" alt="GitHub stars"></a>
 </div>
 
-A curated collection of research papers, benchmarks, and open-source projects on **Recursive Self-Improvement**. This repository accompanies the survey *What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement* and will be continuously updated.
+A curated collection of research papers, benchmarks, and open-source projects on **Recursive Self-Improvement**. This repository accompanies the survey *What Improves, Who Drives Improve: A Roadmap Towards Recursive Self-Improvement* and will be continuously updated.
 
-Recursive Self-Improvement studies how execution experience and feedback support persistent improvements to foundation models, agent harnesses, environments, and improvement mechanisms themselves. Building on the complementary axes of **What improves** and **Who Drives Improvement**, the collection organizes existing research into **seven interrelated milestones** toward RSI.
+Recursive Self-Improvement studies how execution experience and feedback support persistent improvements to foundation models, agent harnesses, environments, and improvement mechanisms themselves. Building on the complementary axes of **What Improves** and **Who Drives Improve**, the collection organizes existing research into **seven interrelated milestones** toward RSI.
 
 🤗 **Contributions are welcome.** If you find a missing resource or a relevant new work, please open an issue or submit a pull request.
 
@@ -24,15 +24,15 @@ Recursive Self-Improvement studies how execution experience and feedback support
 
 The survey analyzes agent improvement toward RSI along **two complementary axes** (Fig. 1):
 
-- **What improves** characterizes the objects and scope of agent improvement, tracing how task-local output refinement extends to persistent changes in the agent, its environment, and the improver itself.
-- **Who Drives Improvement** characterizes the sources of feedback and the mechanisms that guide improvement, explaining how signals are obtained and interpreted to identify weaknesses, evaluate candidate changes, and support further improvement as feedback mechanisms evolve.
+- **What Improves** characterizes the objects and scope of agent improvement, tracing how task-local output refinement extends to persistent changes in the agent, its environment, and the improver itself.
+- **Who Drives Improve** characterizes the sources of feedback and the mechanisms that guide improvement, explaining how signals are obtained and interpreted to identify weaknesses, evaluate candidate changes, and support further improvement as feedback mechanisms evolve.
 
 <div align="center">
-  <img width="100%" src="images/image3.png" alt="Fig. 1. What improves and Who Drives Improvement: Two Axes of Agent Improvement">
-  <p><em>Fig. 1. Two Axes of Agent Improvement: What improves and Who Drives Improvement.</em></p>
+  <img width="100%" src="images/image3.png" alt="Fig. 1. What Improves and Who Drives Improve: Two-Axis Taxonomy Towards Recursive Self-Improvement">
+  <p><em>Fig. 1. Two-Axis Taxonomy Towards Recursive Self-Improvement.</em></p>
 </div>
 
-Based on the **What improves** and **Who Drives Improvement** axes in Fig. 1, we organize existing research toward RSI into **seven interrelated milestones**, as illustrated in Fig. 2.
+Based on the **What Improves** and **Who Drives Improve** axes in Fig. 1, we organize existing research toward RSI into **seven interrelated milestones**, as illustrated in Fig. 2.
 
 <div align="center">
   <img width="100%" src="images/image1.png" alt="Fig. 2. Roadmap Toward Recursive Self-Improvement">
@@ -44,12 +44,12 @@ Based on the **What improves** and **Who Drives Improvement** axes in Fig. 1, we
 - **Evolving Agent Harness** improves workflows, memory, skills, tools, and integrated execution structures.
 - **Building Environment** synthesizes, orchestrates, and evolves environments and their executable models.
 - **Automating Feedback** connects human-steered, environment-grounded, AI-facilitated, and evolving feedback.
-- **Co-Evolving Agent and Environment** couples persistent updates of agents and environment-side mechanisms.
-- **Approaching Recursive Self-Improvement** examines meta-improvement, the generation of stronger agents, and verifiable recursive improvement.
+- **Co-Evolving Agent and Environment** couples persistent updates of agents and environments through asynchronous or synchronous co-evolution.
+- **Approaching Recursive Self-Improvement** examines meta-improvement, successively stronger agents, and verifiable recursive improvement.
 
 ## Table of Contents
 
-- [What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement](#what-to-improve-who-drives-the-improvement-a-roadmap-towards-recursive-self-improvement)
+- [What Improves, Who Drives Improve: A Roadmap Towards Recursive Self-Improvement](#what-improves-who-drives-improve-a-roadmap-towards-recursive-self-improvement)
   - [🎉 News](#-news)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
@@ -78,29 +78,28 @@ Based on the **What improves** and **Who Drives Improvement** axes in Fig. 1, we
         - [Decision Model as a Judge](#decision-model-as-a-judge)
       - [Evolving Feedback](#evolving-feedback)
     - [Milestone VI: Co-Evolving Agent and Environment](#milestone-vi-co-evolving-agent-and-environment)
-      - [Alternating-Update Co-Evolution](#alternating-update-co-evolution)
-      - [Simultaneous-Update Co-Evolution](#simultaneous-update-co-evolution)
+      - [Asynchronous Co-Evolution](#asynchronous-co-evolution)
+      - [Synchronous Co-Evolution](#synchronous-co-evolution)
     - [Milestone VII: Approaching Recursive Self-Improvement](#milestone-vii-approaching-recursive-self-improvement)
       - [Meta-Improvement](#meta-improvement)
-      - [Generating Stronger Agents](#generating-stronger-agents)
+      - [Successively Stronger Agents](#successively-stronger-agents)
       - [Verifiable Recursive Improvement](#verifiable-recursive-improvement)
     - [Benchmarks and Evaluation](#benchmarks-and-evaluation)
-      - [Evolution Target Evaluation](#evolution-target-evaluation)
-      - [Feedback Evaluation](#feedback-evaluation)
+      - [What Improves: Target Evaluation](#what-improves-target-evaluation)
+      - [Who Drives Improve: Feedback Evaluation](#who-drives-improve-feedback-evaluation)
     - [Challenges and Future Directions](#challenges-and-future-directions)
-      - [Efficient and Sustainable Improvement](#efficient-and-sustainable-improvement)
-      - [Reliable Self-Improvement](#reliable-self-improvement)
-      - [Long-Term Evaluation](#long-term-evaluation)
+      - [Trustworthy RSI](#trustworthy-rsi)
+      - [Scientific Agent RSI](#scientific-agent-rsi)
       - [Multi-Agent RSI](#multi-agent-rsi)
       - [RSI Infrastructure](#rsi-infrastructure)
       - [Intelligence Explosion](#intelligence-explosion)
   - [🏆 Benchmarks, Datasets, and Environments](#-benchmarks-datasets-and-environments)
-    - [Evolution Target Evaluation](#evolution-target-evaluation-1)
+    - [What Improves: Target Evaluation](#what-improves-target-evaluation-1)
       - [Model](#model)
       - [Harness](#harness)
       - [Environment](#environment)
       - [Improver](#improver)
-    - [Feedback Evaluation](#feedback-evaluation-1)
+    - [Who Drives Improve: Feedback Evaluation](#who-drives-improve-feedback-evaluation-1)
   - [💻 Open-Source Libraries](#-open-source-libraries)
     - [Training Foundation Model](#training-foundation-model)
     - [Evolving Agent Harness](#evolving-agent-harness)
@@ -166,7 +165,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2023) **ReST** — Reinforced Self-Training (ReST) for Language Modeling [[Paper]](https://arxiv.org/abs/2308.08998)
 - (ICML 2024) **SPIN** — Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models [[Paper]](https://proceedings.mlr.press/v235/chen24j.html)
 - (COLM 2024) **Quiet-STaR** — Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking [[Paper]](https://openreview.net/forum?id=oRXPiSOGH9)
-- (COLM 2024) **V-Star** — V-Star: Training Verifiers for Self-Taught Reasoners [[Paper]](https://openreview.net/forum?id=stmqBSW2dV)
+- (COLM 2024) **V-STaR** — V-STaR: Training Verifiers for Self-Taught Reasoners [[Paper]](https://openreview.net/forum?id=stmqBSW2dV)
 - (NeurIPS 2024) **ReST-MCTS\*** — ReST-MCTS\*: LLM Self-Training via Process Reward Guided Tree Search [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/76ec4dc30e9faaf0e4b6093eaa377218-Abstract-Conference.html)
 - (ICML 2025) **rStar-Math** — rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking [[Paper]](https://proceedings.mlr.press/v267/guan25f.html)
 - (arXiv 2024) **DeepSeekMath** — DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models [[Paper]](https://arxiv.org/abs/2402.03300v3)
@@ -234,7 +233,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (Proceedings of the AAAI Conference on Artificial Intelligence 2024) **ExpeL** — ExpeL: LLM Agents Are Experiential Learners [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29936)
 - (ICLR 2026) **ReasoningBank** — ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory [[Paper]](https://arxiv.org/abs/2509.25140)
 - (EACL 2026) **DC** — Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory [[Paper]](https://aclanthology.org/2026.eacl-long.333/)
-- (NeurIPS 2025) **A-Mem** — A-Mem: Agentic Memory for LLM Agents [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/19909c36f51abc4856b4560aff3d36d6-Abstract-Conference.html)
+- (NeurIPS 2025) **A-MEM** — A-MEM: Agentic Memory for LLM Agents [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/19909c36f51abc4856b4560aff3d36d6-Abstract-Conference.html)
 - (Findings of ACL 2026) **ReMe** — Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution [[Paper]](https://aclanthology.org/2026.findings-acl.829/)
 - (ICML 2026) **Darwinian Memory** — Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution [[Paper]](https://proceedings.mlr.press/v306/mi26b.html)
 - (arXiv 2026) **MemRL** — MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory [[Paper]](https://arxiv.org/abs/2601.03192)
@@ -244,6 +243,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **MetaMem** — MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization [[Paper]](https://arxiv.org/abs/2602.11182)
 - (ICLR 2026) **ACE** — Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models [[Paper]](https://arxiv.org/abs/2510.04618)
 - (arXiv 2026) **MemSyco-Bench** — MemSyco-Bench: Benchmarking Sycophancy in Agent Memory [[Paper]](https://arxiv.org/abs/2607.01071)
+- (arXiv 2026) **RSIAgent** — RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments [[Paper]](https://arxiv.org/abs/2609.15364)
 - (arXiv 2026) **MemAdapter** — Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy [[Paper]](https://arxiv.org/abs/2610.05162)
 
 #### Skill Evolution
@@ -354,6 +354,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **Env-Rethink** — Breaking the Environment Wall: A Unified Framework for Preparing and Evolving Agent-Native Environments [[Paper]](https://arxiv.org/abs/2609.29773)
 - (Findings of EMNLP 2026) **WorldEvolver** — Self-Evolving World Models for LLM Agent Planning [[Paper]](https://aclanthology.org/2026.findings-emnlp.2221/)
 - (arXiv 2026) **ProPlay** — ProPlay: Procedural World Models for Self-Evolving LLM Agents [[Paper]](https://arxiv.org/abs/2606.12780)
+- (arXiv 2025) **DataEnvGym** — DataEnvGym: Data Generation Agents in Teacher Environments with Student Feedback [[Paper]](https://arxiv.org/abs/2410.06215)
 - (arXiv 2026) **WorkRover** — WorkRover: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution [[Paper]](https://arxiv.org/abs/2610.18067)
 - (arXiv 2026) **EnvHarness** — EnvHarness: Awakening Static Worlds for Agent Learning [[Paper]](https://arxiv.org/abs/2608.19880)
 
@@ -480,10 +481,10 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 
 <div align="center">
   <img width="100%" src="images/image7.png" alt="Co-Evolving Agent and Environment">
-  <p><em>Alternating-update and simultaneous-update co-evolution.</em></p>
+  <p><em>Asynchronous and synchronous co-evolution.</em></p>
 </div>
 
-#### Alternating-Update Co-Evolution
+#### Asynchronous Co-Evolution
 
 - (arXiv 2019) **POET** — Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions [[Paper]](https://arxiv.org/abs/1901.01753)
 - (ICML 2022) **ACCEL** — Evolving Curricula with Regret-Based Environment Design [[Paper]](https://proceedings.mlr.press/v162/parker-holder22a.html)
@@ -509,7 +510,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (EMNLP 2025) **WebEvolver** — WebEvolver: Enhancing Web Agent Self-Improvement with Co-evolving World Model [[Paper]](https://aclanthology.org/2025.emnlp-main.454/)
 - (arXiv 2026) **CoMAP** — CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents [[Paper]](https://arxiv.org/abs/2606.02372)
 
-#### Simultaneous-Update Co-Evolution
+#### Synchronous Co-Evolution
 
 - (NeurIPS 2020) **PAIRED** — Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design [[Paper]](https://papers.nips.cc/paper/2020/hash/985e9a46e10005356bbaf194249f6856-Abstract.html)
 - (arXiv 2026) **SPADE** — SPADE: Self-Play in Adaptive Synthetic Executable Environments [[Paper]](https://arxiv.org/abs/2608.19197)
@@ -528,7 +529,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 
 <div align="center">
   <img width="100%" src="images/image8.png" alt="Approaching Recursive Self-Improvement">
-  <p><em>Meta-improvement, generating stronger agents, and verifiable recursive improvement.</em></p>
+  <p><em>Meta-improvement, successively stronger agents, and verifiable recursive improvement.</em></p>
 </div>
 
 #### Meta-Improvement
@@ -548,7 +549,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **ScienceBuddy** — ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents [[Paper]](https://arxiv.org/abs/2609.17523)
 - (arXiv 2026) **Hyperagents** [[Paper]](https://arxiv.org/abs/2603.19461)
 
-#### Generating Stronger Agents
+#### Successively Stronger Agents
 
 - (ACL 2025) **Gödel Agent** — Gödel Agent: A Self-Referential Agent Framework for Recursively Self-Improvement [[Paper]](https://aclanthology.org/2025.acl-long.1354/)
 - (arXiv 2025) **SICA** — A Self-Improving Coding Agent [[Paper]](https://arxiv.org/abs/2504.15228)
@@ -570,7 +571,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **CoEvo-RSI** — CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow? [[Paper]](https://arxiv.org/abs/2610.25078)
 - (arXiv 2026) **RSI-Nav** — Data-Centric Recursive Self-Improvement for Navigation via Policy-Synchronized Language-Action Dual Bootstrapping [[Paper]](https://arxiv.org/abs/2610.15782)
 - (arXiv 2026) **MedRSI** — MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution [[Paper]](https://arxiv.org/abs/2609.24838)
-- (arXiv 2026) **MAS-RSI** — Recursive Self-Improvement through Multi-Agent Self-Supervision [[Paper]](https://arxiv.org/abs/2610.12176)
+- (arXiv 2026) **MASS** — Recursive Self-Improvement through Multi-Agent Self-Supervision [[Paper]](https://arxiv.org/abs/2610.12176)
 - (arXiv 2026) **RecRSI** — Beyond Successor Accuracy: State Retention for Recursive Self-Improvement in Recommendation [[Paper]](https://arxiv.org/abs/2610.07105)
 - (arXiv 2026) **DuplexAgent-RSI** — DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration [[Paper]](https://arxiv.org/abs/2610.11299)
 - (arXiv 2026) **RSIHub** — RSIHub: A Composable Framework for Agent-Evolution Methods [[Paper]](https://arxiv.org/abs/2610.32253)
@@ -603,7 +604,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 
 ### Benchmarks and Evaluation
 
-#### Evolution Target Evaluation
+#### What Improves: Target Evaluation
 
 - (arXiv 2026) **Rethinking** — Rethinking the Evaluation of Harness Evolution for Agents [[Paper]](https://arxiv.org/abs/2607.12227)
 - (arXiv 2026) **Harness Evolution as Learning** — Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents [[Paper]](https://arxiv.org/abs/2609.36892)
@@ -622,7 +623,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **Auditing the Product, Not the Recursion** — Auditing the Product, Not the Recursion: The Evaluation Evidence Behind Recursive Self-Improvement Claims [[Paper]](https://arxiv.org/abs/2610.27610)
 - (arXiv 2026) **EnvHarness** — EnvHarness: Awakening Static Worlds for Agent Learning [[Paper]](https://arxiv.org/abs/2608.19880)
 
-#### Feedback Evaluation
+#### Who Drives Improve: Feedback Evaluation
 
 - (NeurIPS 2022) **InstructGPT** — Training language models to follow instructions with human feedback [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract.html)
 - (arXiv 2026) **Learning Personalized Agents from Human Feedback** [[Paper]](https://arxiv.org/abs/2602.16173)
@@ -633,32 +634,43 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 
 ### Challenges and Future Directions
 
-#### Efficient and Sustainable Improvement
+#### Trustworthy RSI
 
-- (arXiv 2026) **Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0** [[Paper]](https://arxiv.org/abs/2607.14004)
-- (arXiv 2026) **EvoAlloc** — EvoAlloc: A Self-Evolving Resource Allocation Agent for Efficient Program Evolution [[Paper]](https://arxiv.org/abs/2610.12086)
-- (arXiv 2026) **Harness Continual Learning** — Harness Continual Learning: Continual Adaptation Beyond Model Parameters [[Paper]](https://arxiv.org/abs/2608.19013)
-- (arXiv 2026) **Scope Before You Persist** — Scope Before You Persist: Preventing Cross-Family Interference in Agent Memory [[Paper]](https://arxiv.org/abs/2609.29144)
-
-#### Reliable Self-Improvement
-
+- (arXiv 2026) **Trustworthy Recursive Self-Improvement in the Era of Large Models** — Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges [[Paper]](https://arxiv.org/abs/2610.35193)
+- (ACL 2026) **ECHO** — No More Stale Feedback: Co-Evolving Critics for Open-World Agent Learning [[Paper]](https://aclanthology.org/2026.acl-long.576/)
+- (arXiv 2026) **Who Grades the Grader?** — Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents [[Paper]](https://arxiv.org/abs/2607.12790)
 - (arXiv 2026) **Self-Authored Verification Is Unreliable in Heuristic Self-Improving Agents** [[Paper]](https://arxiv.org/abs/2607.24300)
+- (arXiv 2026) **SEA** — Self-Evolving Agents with Anytime-Valid Certificates [[Paper]](https://arxiv.org/abs/2607.00871)
+- (arXiv 2026) **SAGE** — SAGE: A Statistical Acceptance Gate for Self-Evolving Agents [[Paper]](https://arxiv.org/abs/2609.36043)
+- (arXiv 2025) **SGM** — SGM: A Statistical Godel Machine for Risk-Controlled Recursive Self-Modification [[Paper]](https://arxiv.org/abs/2510.10232)
+- (arXiv 2026) **Your Agent May Misevolve** — Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents [[Paper]](https://arxiv.org/abs/2509.26354)
+- (arXiv 2026) **SEABench** — SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents [[Paper]](https://arxiv.org/abs/2609.35596)
 - (arXiv 2026) **When Self-Evolution Backfires** — When Self-Evolution Backfires: Pre-Commit Gating against Skill Contamination in LLM Agents [[Paper]](https://arxiv.org/abs/2608.05810)
+- (arXiv 2026) **SkillJack** — SkillJack: Persistent Skill Backdoors in Self-Evolving Agents [[Paper]](https://arxiv.org/abs/2608.03509)
 - (arXiv 2026) **Reflections on Trusting Trust, Revisited** — Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks [[Paper]](https://arxiv.org/abs/2609.17817)
+- (arXiv 2026) **RSI Control** — RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process? [[Paper]](https://arxiv.org/abs/2610.27735)
 
-#### Long-Term Evaluation
+#### Scientific Agent RSI
 
-- (arXiv 2026) **AgentStream** — AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks? [[Paper]](https://arxiv.org/abs/2608.00155)
-- (arXiv 2026) **PATH-Bench** — PATH-Bench: Path-Dependent Evaluation of Lifelong Agents [[Paper]](https://arxiv.org/abs/2608.01149)
+- (arXiv 2026) **AIDE²** — Recursive self-improvement of AI research agents [[Paper]](https://arxiv.org/abs/2609.26457)
+- (arXiv 2026) **Frontis-MA1** — Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering [[Paper]](https://arxiv.org/abs/2607.28568)
+- (arXiv 2026) **ScienceBuddy** — ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents [[Paper]](https://arxiv.org/abs/2609.17523)
+- (arXiv 2026) **DiscoveryRSI** — DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses [[Paper]](https://arxiv.org/abs/2610.23839)
+- (arXiv 2026) **ScienceClaw** — ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences [[Paper]](https://arxiv.org/abs/2610.08691)
+- (arXiv 2026) **ScientistOne** — ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence [[Paper]](https://arxiv.org/abs/2605.26340)
+- (arXiv 2026) **EviGraph** — EviGraph: Evidence-Guided Autonomous Research Agents [[Paper]](https://arxiv.org/abs/2608.04738)
 
 #### Multi-Agent RSI
 
+- (arXiv 2026) **GEA** — Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing [[Paper]](https://arxiv.org/abs/2602.04837)
 - (arXiv 2026) **Evolve as a Team** — Evolve as a Team: Collaborative Self-Evolution for LLM-based Multi-Agent Systems [[Paper]](https://arxiv.org/abs/2605.29790)
 - (arXiv 2026) **EVOCHAMBER** — EVOCHAMBER: Test-Time Co-evolution of Multi-Agent System at Individual, Team, and Population Scales [[Paper]](https://arxiv.org/abs/2605.11136)
+- (arXiv 2026) **MASS** — Recursive Self-Improvement through Multi-Agent Self-Supervision [[Paper]](https://arxiv.org/abs/2610.12176)
 - (EMNLP 2026) **Multi-Agent Evolve** — Multi-Agent Evolve: LLM Self-Improve through Co-evolution [[Paper]](https://aclanthology.org/2026.emnlp-main.1734/)
 - (Findings of EMNLP 2026) **Skill-MAS** — Skill-MAS: Evolving Meta-Skill for Automatic Multi-Agent Systems [[Paper]](https://aclanthology.org/2026.findings-emnlp.1582/)
 - (ICML 2026) **EvoMAS** — EvoMAS: Heuristics in the Loop—Evolving Smarter Agentic Workflows [[Paper]](https://proceedings.mlr.press/v306/wei26m.html)
 - (Findings of ACL 2026) **Learning to Evolve** — Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization [[Paper]](https://aclanthology.org/2026.findings-acl.1534/)
+- (arXiv 2026) **SwarmRSI** — SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm [[Paper]](https://arxiv.org/abs/2610.20431)
 - (arXiv 2026) **MetaShare** — MetaShare: Failure-Aware Collective Self-Improvement for Open-Ended Agents [[Paper]](https://arxiv.org/abs/2610.21887)
 - (arXiv 2026) **From Solo to Social Learning** — From Solo to Social Learning: Characterizing Recursive Social Improvement in LLMs [[Paper]](https://arxiv.org/abs/2609.38516)
 
@@ -666,6 +678,8 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 
 - (OpenRSI Index Blog 2026) **OpenRSI × SGLang-Omni** — OpenRSI × SGLang-Omni: Scaling RSI for AI Infra [[Paper]](https://index.openrsi.foundation/blog/2026/openrsi-sglang-omni/)
 - (arXiv 2026) **InfraRSI** — InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure [[Paper]](https://arxiv.org/abs/2611.11558)
+- (arXiv 2026) **RSIGym** — RSIGym: A Flexible Environment for Recursive Self-Improvement [[Paper]](https://arxiv.org/abs/2610.10310)
+- (arXiv 2026) **Athanor** — Athanor: An Agent-Native System for Autonomous Post-Training Research [[Paper]](https://arxiv.org/abs/2610.21055)
 - (arXiv 2026) **RSI-Env** — RSI-Env: An Open-Ended Environment for Recursive Self-Improvement of Agents [[Paper]](https://arxiv.org/abs/2611.01736)
 
 #### Intelligence Explosion
@@ -678,9 +692,9 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 
 ## 🏆 Benchmarks, Datasets, and Environments
 
-Representative evaluation resources assess improvement targets under **What improves** and feedback mechanisms under **Who Drives Improvement**:
+Representative evaluation resources assess improvement targets under **What Improves** and feedback mechanisms under **Who Drives Improve**.
 
-### Evolution Target Evaluation
+### What Improves: Target Evaluation
 
 #### Model
 
@@ -747,7 +761,7 @@ Representative evaluation resources assess improvement targets under **What impr
 - [RSI-Exam](https://github.com/aiming-lab/RSI-Exam)
 - [RSIGym](https://arxiv.org/abs/2610.10310)
 
-### Feedback Evaluation
+### Who Drives Improve: Feedback Evaluation
 
 - [RSIBench-Data](https://github.com/evolvent-ai/RSIBench-Data)
 - [FinEvolveBench](https://arxiv.org/abs/2606.06960v4)
@@ -891,7 +905,7 @@ If you find this repository useful, please cite the accompanying survey:
 
 ```bibtex
 @unpublished{anonymous2026rsi,
-  title={What to improve, Who drives the improvement: A Roadmap towards Recursive Self-Improvement},
+  title={What Improves, Who Drives Improve: A Roadmap Towards Recursive Self-Improvement},
   author={{Anonymous authors}},
   note={Manuscript},
   year={2026}
