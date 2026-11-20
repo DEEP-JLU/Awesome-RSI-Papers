@@ -631,6 +631,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **RQGM** — The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators [[Paper]](https://arxiv.org/abs/2606.26294)
 - (arXiv 2026) **Who Grades the Grader?** — Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents [[Paper]](https://arxiv.org/abs/2607.12790)
 - (arXiv 2026) **Bad Genius** — Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts [[Paper]](https://arxiv.org/abs/2609.18366)
+- (arXiv 2026) **SciΠvot** — SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents [[Paper]](https://arxiv.org/abs/2610.21082)
 
 ### Challenges and Future Directions
 
@@ -659,6 +660,8 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **ScienceClaw** — ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences [[Paper]](https://arxiv.org/abs/2610.08691)
 - (arXiv 2026) **ScientistOne** — ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence [[Paper]](https://arxiv.org/abs/2605.26340)
 - (arXiv 2026) **EviGraph** — EviGraph: Evidence-Guided Autonomous Research Agents [[Paper]](https://arxiv.org/abs/2608.04738)
+- (arXiv 2026) **AgonAlpha** — AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search [[Paper]](https://arxiv.org/abs/2608.11250)
+- (arXiv 2026) **AutoSR** — AutoSR: Automatic Symbolic Regression by Searching Research States [[Paper]](https://arxiv.org/abs/2608.16876)
 
 #### Multi-Agent RSI
 
