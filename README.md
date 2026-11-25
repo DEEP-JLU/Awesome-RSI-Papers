@@ -1,4 +1,4 @@
-# What Improves, Who Drives Improve: A Roadmap Towards Recursive Self-Improvement
+# What Improves, Who Drives It: A Roadmap Towards Reliable Recursive Self-Improvement
 
 <div align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
@@ -6,9 +6,9 @@
   <a href="https://github.com/DEEP-JLU/Awesome-RSI-Papers"><img src="https://img.shields.io/github/stars/DEEP-JLU/Awesome-RSI-Papers?style=flat" alt="GitHub stars"></a>
 </div>
 
-A curated collection of research papers, benchmarks, and open-source projects on **Recursive Self-Improvement**. This repository accompanies the survey *What Improves, Who Drives Improve: A Roadmap Towards Recursive Self-Improvement* and will be continuously updated.
+A curated collection of research papers, benchmarks, and open-source projects on **Recursive Self-Improvement**. This repository accompanies the survey *What Improves, Who Drives It: A Roadmap Towards Reliable Recursive Self-Improvement* and will be continuously updated.
 
-Recursive Self-Improvement studies how execution experience and feedback support persistent improvements to foundation models, agent harnesses, environments, and improvement mechanisms themselves. Building on the complementary axes of **What Improves** and **Who Drives Improve**, the collection organizes existing research into **seven interrelated milestones** toward RSI.
+Recursive Self-Improvement studies how execution experience and feedback support persistent improvements to foundation models, agent harnesses, environments, and the improver itself. Building on the complementary axes of **What Improves** and **Who Drives Improve**, the collection organizes existing research into **seven interrelated milestones** toward reliable RSI, emphasizing appropriate evolution targets, valid feedback, and verifiable future improvement capability.
 
 🤗 **Contributions are welcome.** If you find a missing resource or a relevant new work, please open an issue or submit a pull request.
 
@@ -22,7 +22,7 @@ Recursive Self-Improvement studies how execution experience and feedback support
 
 ## Overview
 
-The survey analyzes agent improvement toward RSI along **two complementary axes** (Fig. 1):
+The survey analyzes agent improvement toward reliable RSI along **two complementary axes** (Fig. 1):
 
 - **What Improves** characterizes the objects and scope of agent improvement, tracing how task-local output refinement extends to persistent changes in the agent, its environment, and the improver itself.
 - **Who Drives Improve** characterizes the sources of feedback and the mechanisms that guide improvement, explaining how signals are obtained and interpreted to identify weaknesses, evaluate candidate changes, and support further improvement as feedback mechanisms evolve.
@@ -32,7 +32,7 @@ The survey analyzes agent improvement toward RSI along **two complementary axes*
   <p><em>Fig. 1. Two-Axis Taxonomy Towards Recursive Self-Improvement.</em></p>
 </div>
 
-Based on the **What Improves** and **Who Drives Improve** axes in Fig. 1, we organize existing research toward RSI into **seven interrelated milestones**, as illustrated in Fig. 2.
+Based on the **What Improves** and **Who Drives Improve** axes in Fig. 1, we organize existing research toward reliable RSI into **seven interrelated milestones**, as illustrated in Fig. 2.
 
 <div align="center">
   <img width="100%" src="images/image1.png" alt="Fig. 2. Roadmap Toward Recursive Self-Improvement">
@@ -41,7 +41,7 @@ Based on the **What Improves** and **Who Drives Improve** axes in Fig. 1, we org
 
 - **Refining Output** improves task-local artifacts through critique, verification, and revision.
 - **Training Foundation Model** internalizes execution experience into persistent model capabilities.
-- **Evolving Agent Harness** improves workflows, memory, skills, tools, and integrated execution structures.
+- **Evolving Agent Harness** improves workflows, tools, memory, skills, and their orchestration.
 - **Building Environment** synthesizes, orchestrates, and evolves environments and their executable models.
 - **Automating Feedback** connects human-steered, environment-grounded, AI-facilitated, and evolving feedback.
 - **Co-Evolving Agent and Environment** couples persistent updates of agents and environments through asynchronous or synchronous co-evolution.
@@ -49,7 +49,7 @@ Based on the **What Improves** and **Who Drives Improve** axes in Fig. 1, we org
 
 ## Table of Contents
 
-- [What Improves, Who Drives Improve: A Roadmap Towards Recursive Self-Improvement](#what-improves-who-drives-improve-a-roadmap-towards-recursive-self-improvement)
+- [What Improves, Who Drives It: A Roadmap Towards Reliable Recursive Self-Improvement](#what-improves-who-drives-it-a-roadmap-towards-reliable-recursive-self-improvement)
   - [🎉 News](#-news)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
@@ -61,9 +61,9 @@ Based on the **What Improves** and **Who Drives Improve** axes in Fig. 1, we org
       - [Strengthening Adaptive Capabilities](#strengthening-adaptive-capabilities)
     - [Milestone III: Evolving Agent Harness](#milestone-iii-evolving-agent-harness)
       - [Workflow Optimization](#workflow-optimization)
+      - [Tool Integration](#tool-integration)
       - [Memory Management](#memory-management)
       - [Skill Evolution](#skill-evolution)
-      - [Tool Integration](#tool-integration)
       - [Harness Design Orchestration](#harness-design-orchestration)
     - [Milestone IV: Building Environment](#milestone-iv-building-environment)
       - [Environment Synthesis](#environment-synthesis)
@@ -207,12 +207,14 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (ICLR 2026) **CodeGym** — Generalizable End-to-End Tool-Use RL with Synthetic CodeGym [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1e4322fddd833f83c855660ac65e428d-Abstract-Conference.html)
 - (arXiv 2026) **OpenAgent** — Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use [[Paper]](https://arxiv.org/abs/2607.01084)
 - (arXiv 2026) **RSIPO** — RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution [[Paper]](https://arxiv.org/abs/2610.15772)
+- (arXiv 2026) **SAAS** — SAAS: Self-Aware Reinforcement Learning for Over-Search Mitigation in Agentic Search [[Paper]](https://arxiv.org/abs/2605.29796)
+- (arXiv 2026) **BAPO** — BAPO: Boundary-Aware Policy Optimization for Reliable Agentic Search [[Paper]](https://arxiv.org/abs/2601.11037)
 
 ### Milestone III: Evolving Agent Harness
 
 <div align="center">
   <img width="100%" src="images/image4.png" alt="Evolving Agent Harness">
-  <p><em>Workflow optimization, memory management, skill evolution, tool integration, and harness design orchestration.</em></p>
+  <p><em>Workflow optimization, tool integration, memory management, skill evolution, and harness design orchestration.</em></p>
 </div>
 
 #### Workflow Optimization
@@ -226,6 +228,17 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (Proceedings of the AAAI Conference on Artificial Intelligence 2026) **A2Flow** — A²Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/40240)
 - (ICLR 2025) **ADAS** — Automated Design of Agentic Systems [[Paper]](https://openreview.net/pdf?id=t9U3LW7JVX)
 - (arXiv 2026) **CollabFlow** — CollabFlow: Recursive Self-Improvement of Agent Collaboration [[Paper]](https://arxiv.org/abs/2609.38662)
+
+#### Tool Integration
+
+- (ICLR 2024) **LATM** — Large Language Models as Tool Makers [[Paper]](https://openreview.net/forum?id=qV83K9d5WB)
+- (ICLR 2024) **CRAFT** — CRAFT: Customizing LLMs by Creating and Retrieving from Specialized Toolsets [[Paper]](https://openreview.net/forum?id=G0vdDSt9XM)
+- (ICML 2024) **TroVE** — TroVE: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks [[Paper]](https://proceedings.mlr.press/v235/wang24az.html)
+- (ICML 2024) **ReGAL** — ReGAL: Refactoring Programs to Discover Generalizable Abstractions [[Paper]](https://proceedings.mlr.press/v235/stengel-eskin24a.html)
+- (arXiv 2025) **ToolLibGen** — ToolLibGen: Scalable Automatic Tool Creation and Aggregation for LLM Reasoning [[Paper]](https://arxiv.org/abs/2510.07768)
+- (ACL 2026) **GATE** — GATE: Graph-based Adaptive Tool Evolution Across Diverse Tasks [[Paper]](https://aclanthology.org/2026.acl-long.87/)
+- (Findings of ACL 2026) **ContDa** — Beyond Static Toolsets: Self-Evolving LLM Tool Agents via Continual Documentation Adaptation [[Paper]](https://aclanthology.org/2026.findings-acl.1082/)
+- (Findings of EMNLP 2023) **CREATOR** — CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models [[Paper]](https://aclanthology.org/2023.findings-emnlp.462/)
 
 #### Memory Management
 
@@ -265,17 +278,6 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **GraphSkillAA** — GraphSkillAA: Attribution-Guided Skill-Graph Updating with Targeted Validation and Rollback [[Paper]](https://arxiv.org/abs/2609.20455)
 - (arXiv 2026) **WikiSkill** — WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution [[Paper]](https://arxiv.org/abs/2608.27454)
 - (EMNLP 2026) **Skill.state** — SKILL.state: Scalable Long-Horizon Agent Skills [[Paper]](https://aclanthology.org/2026.emnlp-industry.264/)
-
-#### Tool Integration
-
-- (ICLR 2024) **LATM** — Large Language Models as Tool Makers [[Paper]](https://openreview.net/forum?id=qV83K9d5WB)
-- (ICLR 2024) **CRAFT** — CRAFT: Customizing LLMs by Creating and Retrieving from Specialized Toolsets [[Paper]](https://openreview.net/forum?id=G0vdDSt9XM)
-- (ICML 2024) **TroVE** — TroVE: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks [[Paper]](https://proceedings.mlr.press/v235/wang24az.html)
-- (ICML 2024) **ReGAL** — ReGAL: Refactoring Programs to Discover Generalizable Abstractions [[Paper]](https://proceedings.mlr.press/v235/stengel-eskin24a.html)
-- (arXiv 2025) **ToolLibGen** — ToolLibGen: Scalable Automatic Tool Creation and Aggregation for LLM Reasoning [[Paper]](https://arxiv.org/abs/2510.07768)
-- (ACL 2026) **GATE** — GATE: Graph-based Adaptive Tool Evolution Across Diverse Tasks [[Paper]](https://aclanthology.org/2026.acl-long.87/)
-- (Findings of ACL 2026) **ContDa** — Beyond Static Toolsets: Self-Evolving LLM Tool Agents via Continual Documentation Adaptation [[Paper]](https://aclanthology.org/2026.findings-acl.1082/)
-- (Findings of EMNLP 2023) **CREATOR** — CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models [[Paper]](https://aclanthology.org/2023.findings-emnlp.462/)
 
 #### Harness Design Orchestration
 
@@ -434,6 +436,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2025) **GUI-PRA** — GUI-PRA: Process Reward Agent for GUI Tasks [[Paper]](https://arxiv.org/abs/2509.23263v3)
 - (arXiv 2026) **VAGEN** — Agentic Reward Modeling: Verifying GUI Agent via Progressive Trajectory-Grounded Interaction [[Paper]](https://arxiv.org/abs/2602.00575v2)
 - (ACL 2025) **RewardAgent** — Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals for Reliable Reward Systems [[Paper]](https://aclanthology.org/2025.acl-long.775/)
+- (ACL 2026) **LegalGraphRAG** — LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning [[Paper]](https://aclanthology.org/2026.acl-long.1738/)
 - (arXiv 2025) **OpenReward** — OpenReward: Learning to Reward Long-form Agentic Tasks via Reinforcement Learning [[Paper]](https://arxiv.org/abs/2510.24636v3)
 - (arXiv 2026) **AgentV-RL** — AgentV-RL: Scaling Reward Modeling with Agentic Verifier [[Paper]](https://arxiv.org/abs/2604.16004v1)
 - (arXiv 2026) **Agentic Verifier** — Scaling Agentic Verifier for Competitive Coding [[Paper]](https://arxiv.org/abs/2602.04254v1)
@@ -459,6 +462,7 @@ Research papers are organized by the seven milestones introduced in the [Overvie
 - (arXiv 2026) **Jev Benchmark** — Evaluating and Benchmarking the System One Model Jev [[Paper]](https://arxiv.org/abs/2609.37647v1)
 - (arXiv 2026) **Jev as a Judge for RAG** — Jev-as-a-Judge for RAG Claim Verification: Confidence-Gated Cascading Between a Non-Generative Verifier and a Frontier LLM [[Paper]](https://arxiv.org/abs/2610.20634)
 - (arXiv 2026) **Jev as a Judge for Agent Trace Security** — JEV as a Judge for Agent Trace Security: An Empirical Comparison with Generative LLM Judges [[Paper]](https://arxiv.org/abs/2609.34862)
+- (arXiv 2026) **ErrorLLM** — ErrorLLM: Modeling SQL Errors for Text-to-SQL Refinement [[Paper]](https://arxiv.org/abs/2603.03742)
 
 #### Evolving Feedback
 
@@ -904,9 +908,23 @@ Representative systems and application domains covered by the survey:
 If you find this repository useful, please cite the accompanying survey:
 
 ```bibtex
-@unpublished{anonymous2026rsi,
-  title={What Improves, Who Drives Improve: A Roadmap Towards Recursive Self-Improvement},
-  author={{Anonymous authors}},
+@unpublished{liu2026reliablersi,
+  title={What Improves, Who Drives It: A Roadmap Towards Reliable Recursive Self-Improvement},
+  author={Zhaoxu Liu and
+          Yuyuan Feng and
+          Sihan Huang and
+          Haocong Niu and
+          Chaobin Yang and
+          Yujing Zhang and
+          Chang Yang and
+          Wei Chen and
+          Jiwei Zheng and
+          Jiao Li and
+          Zhihong Zhang and
+          Xiao Huang and
+          Xin Wang and
+          Qinggang Zhang and
+          Yi Chang},
   note={Manuscript},
   year={2026}
 }
