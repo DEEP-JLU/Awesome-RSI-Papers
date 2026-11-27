@@ -116,13 +116,8 @@ Based on the **What Improves** and **Who Drives Improve** axes in Fig. 1, we org
 
 ## 📚 Related Survey Papers
 
-- (Preprint 2026) Where the Loop Meets the Budget: Analyzing On-Device Recursive Self-Improvement [[Paper]](https://www.preprints.org/manuscript/202610.0582/v2)
-- (Preprint 2026) When, Where, and How Experience Becomes Structure: Mechanisms for Recursive Self-Improvement in LLM Agents [[Paper]](https://www.preprints.org/manuscript/202611.0261/v1)
-- (arXiv 2026) Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation [[Paper]](https://arxiv.org/abs/2610.38266)
 - (arXiv 2026) Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges [[Paper]](https://arxiv.org/abs/2610.35193)
-- (arXiv 2026) Safety in Self-Evolving Agents: A Survey [[Paper]](https://arxiv.org/abs/2610.00093)
-- (Preprint 2026) The Path to Recursive Self-Improving Agents: Foundation, Framework, and Future Directions [[Paper]](https://www.preprints.org/manuscript/202608.0051)
-- (Openreview 2026) Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution [[Paper]](https://openreview.net/pdf?id=IUltZSgLMm)
+- (Preprint 2026) Diving into Reliable Self-Evolving Agents: A Survey [[Paper]](https://www.preprints.org/manuscript/202609.0913)
 - (arXiv 2025) A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems [[Paper]](https://arxiv.org/abs/2508.07407)
 - (TMLR 2026) A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence [[Paper]](https://openreview.net/forum?id=CTr3bovS5F)
 - (arXiv 2026) Self-Improvements in Modern Agentic Systems: A Survey [[Paper]](https://arxiv.org/abs/2607.13104)
