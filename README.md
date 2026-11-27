@@ -35,8 +35,8 @@ The survey analyzes agent improvement toward reliable RSI along **two complement
 Based on the **What Improves** and **Who Drives Improve** axes in Fig. 1, we organize existing research toward reliable RSI into **seven interrelated milestones**, as illustrated in Fig. 2.
 
 <div align="center">
-  <img width="100%" src="images/image1.png" alt="Fig. 2. Roadmap Toward Recursive Self-Improvement">
-  <p><em>Fig. 2. Roadmap Toward Recursive Self-Improvement.</em></p>
+  <img width="100%" src="images/image1.png" alt="Fig. 2. Roadmap to Reliable RSI">
+  <p><em>Fig. 2. Roadmap to Reliable RSI.</em></p>
 </div>
 
 - **Refining Output** improves task-local artifacts through critique, verification, and revision.
